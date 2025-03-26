@@ -12,12 +12,6 @@ www.youtube.com##.ytd-search-header-renderer.style-scope > .yt-chip-cloud-render
 www.youtube.com###header > .ytd-search.style-scope
 www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 
-! Remove empty spaces in grid
-www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-
-! Hide short remixes in video descriptions and in suggestions beside the comments
-www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
-
 ! remove pink fade from youtube playback progress bar
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
@@ -64,3 +58,7 @@ www.youtube.com##*:matches-attr(background="#FF0033"):style(background: #FF0000 
 
 ! change item grid count per row
 youtube.com##.style-scope.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4;)
+
+
+! Hide shorts category on homepage
+m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
