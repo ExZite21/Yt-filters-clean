@@ -2,8 +2,7 @@
 ! Description: Filters for youtube for a clutter free expereince
 ! Version: 1.10.0
 ! Last modified: 2025-03-27 02:34
-! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
-! License: https://github.com/gijsdev/ublock-hide-yt-shorts/blob/master/LICENSE.md
+! Homepage: https://github.com/ExZite21/Yt-filters-clean
 
 !Remove Categories / Feeds
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
