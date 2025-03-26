@@ -11,11 +11,6 @@ www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: co
 ! Hide short remixes in video descriptions and in suggestions beside the comments
 www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
 
-!Hide feeds
-www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com###container > .yt-chip-cloud-renderer.style-scope
-
 ! remove pink fade from youtube playback progress bar
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
