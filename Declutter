@@ -5,6 +5,13 @@
 ! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
 ! License: https://github.com/gijsdev/ublock-hide-yt-shorts/blob/master/LICENSE.md
 
+!Remove Categories / Feeds
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##.ytd-search-header-renderer.style-scope > .yt-chip-cloud-renderer.style-scope
+www.youtube.com###header > .ytd-search.style-scope
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+
 ! Remove empty spaces in grid
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
